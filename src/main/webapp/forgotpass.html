@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+</head>
+<link rel="stylesheet" href="./forgotpass.css">
+
+<body>
+    <div id="main"> <span id="span"><a href="./Home.html"><button>Home</button></a></span>
+        <h1>Update your password</h1>
+    </div>
+    <div id="cont">
+        <form action="post" id="form">
+            <table>
+                <tr>
+                    <td> <label for="email">Email :</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="dob">D O B :</label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile :</label></td>
+                    <td><input type="tel" name="mobile" id="mobile" pattern="[0-9]{10}"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country :</label></td>
+                    <td><select name="country" id="drop">
+                            <option value="country" class="drop">India</option>
+                            <option value="country" class="drop"  >Pakistan</option>
+                            <option value="country" class="drop">Auatralia</option>
+                            <option value="country" class="drop">America</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="password">New Password :</label></td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+
+
+
+
+            </table>
+
+            <button>Update Password</button> <button type="reset" id="cancel"> Cancel</button>
+        </form>
+    </div>
+</body>
+
+</html>

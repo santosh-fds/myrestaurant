@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+body{
+    background-image: url(./images/sald.jpg);
+}
+
+#main{
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#form
+{
+   
+}
+
+#cont{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    color: white;
+}
+#email,#dob,#mobile,#password,#drop{
+    height: 40px;
+    width: 300px;
+}
+
+button{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+#cancel{
+    left: 40px;
+}
+button:hover{
+    background-color: rgb(37, 33, 33);
+    color: white;
+    scale: 1.1;
+}
+.drop:hover{
+    scale: 5;
+}
+#span{
+    position: relative;
+    display: flex;
+    left: -400px;
+    top: -17px;
+}
